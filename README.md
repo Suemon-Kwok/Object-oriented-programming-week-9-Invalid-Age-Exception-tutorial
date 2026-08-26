@@ -1,2 +1,5 @@
-# Object-oriented-programming-week-9-Invalid-Age-Exception-tutorial
-Object-oriented-programming-week-9-Invalid Age Exception-tutorial
+public class InvalidAgeException extends Exception {
+    public InvalidAgeException(String message) {
+        super(message);
+    }
+}
